@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!-- http://cs2610.cs.usu.edu/~xenophon/HW13/ -->
+<html>
+	<head lang="en">
+		<meta charset="UTF-8">
+		<title>JavaScript</title>
+		<link rel="stylesheet" type="text/css" href="hw13style.css">
+		<script type="text/javascript" src="hw13script.js"></script>
+	</head>
+	<body>
+		<h1 id="topHeader">Calculator</h1>
+		<div><input id="numOne" type="text" onmouseover="displayMessageOne()" onmouseout="hideMessage('numOneMessage')" /><span id="numOneMessage"></span></div>
+		<div><input id="numTwo" type="text" onmouseover="displayMessageTwo()" onmouseout="hideMessage('numTwoMessage')" /><span id="numTwoMessage"></span></div>
+		<div>
+			<button onclick="addNumbers()" onmouseover="displayButtonMessage()" onmouseout="hideMessage('buttonMessage')" id="add">+</button>
+			<button onclick="subtractNumbers()" onmouseover="displayButtonMessage()" onmouseout="hideMessage('buttonMessage')" id="subtract">-</button>
+			<button onclick="multiplyNumbers()" onmouseover="displayButtonMessage()" onmouseout="hideMessage('buttonMessage')" id="multiply">x</button>
+			<button onclick="divideNumbers()" onmouseover="displayButtonMessage()" onmouseout="hideMessage('buttonMessage')" id="divide">&divide</button>
+			<span id="buttonMessage"></span>
+		</div>
+		<div><input id="result" type="text" onmouseover="displayResultMessage()" onmouseout="hideMessage('resultMessage')"readonly /><span id="resultMessage"></span></div>
+		<div>
+		<button onclick="changeBackground()" id="changeBackground">Change Background</button>
+		<button onclick="changeHeader()" id="changeHeader">Change Header</button>
+		<button onclick="changeTitle()" id="changeTitle">Change Title</button>
+		</div>
+		<div>
+		<button id="haveFun" onclick="haveFun()"><span id="letter0">H</span><span id="letter1">a</span><span id="letter2">v</span><span id="letter3">e</span> <span id="letter4">F</span><span id="letter5">u</span><span id="letter6">n</span></button>
+		<button id="beBoring" onclick="beBoring()">Be boring</button>
+		</div>
+	</body>
+</html>

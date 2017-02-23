@@ -1,0 +1,17 @@
+<!DOCTYPE html> 
+<html>
+    <head  lang="en">
+        <meta charset="UTF-8">
+        <title>Inventory</title>
+        <link rel="stylesheet" type="text/css" href="inventoryStyle.css">
+    </head>
+    <body>
+        <div class="mainContent">
+        <form action="<?php echo htmlentities($_SERVER['SCRIPT_NAME']) ?>" method="post" enctype="application/x-www-form-urlencoded" name="" > 
+            
+            <h2>Green Warehouse Inventory System</h2>
+            <ul>
+    <li><input type="submit" name="addItem" value="Add Item to Inventory" /></li>                
+    <li><input type="submit" name="inWarehouse" value="Items in Warehouse" /></li>                
+    <li><input type="submit" name="allItems" value="All In Stock" /></li>
+</ul>

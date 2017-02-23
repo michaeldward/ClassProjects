@@ -1,0 +1,10 @@
+1. http://cs2610.cs.usu.edu/~xenophon/HW13/
+2. first function: line 1; second function: line 5 (js file)
+3. first event: onclick; line 15 (html file)
+second event: onmouseover; line 15 (html file)
+third event: onmouseout; line 15 (html file)
+4. first textbox is used for user input of a number; line 12 (html file)
+second textbox is used for input of a number; line 13 (html file)
+5. line 43 (.js file) background color is change
+6. line 47 (.js file) innerHTML is changed
+7. line 51 (.js file) title is changed

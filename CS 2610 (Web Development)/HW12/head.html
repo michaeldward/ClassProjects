@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<!-- http://cs2610.cs.usu.edu/~xenophon/HW11/ --> 
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>GCSD Database</title>
+        <link rel="stylesheet" type="text/css" href="studentStyle.css">
+    </head>
+    <body>
+        <div class="mainContent">
+        <form action="<?php echo htmlentities($_SERVER['SCRIPT_NAME']) ?>" method="post" enctype="application/x-www-form-urlencoded" name="" > 
+            
+            <h2>Green County School District Database</h2>
+    <ul>
+    <li><input type="submit" name="newStudent" value="New Student" /></li>                
+    <li><input type="submit" name="newAssignment" value="New Assignment" /></li>         
+    <li><input type="submit" name="newGrade" value="New Grade"/></li>
+    <li><input type="submit" name="viewScores" value="View Scores" disabled/></li>
+</ul>

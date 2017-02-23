@@ -1,0 +1,77 @@
+body {
+	background-color: #123456;
+}
+h1 {
+	text-align: center;
+	color: white;
+}
+#numOne {
+	margin-left: 200px;
+}
+#numTwo {
+	margin-top: 20px;
+	margin-left: 200px;
+}
+#add {
+	margin-top: 20px;
+	margin-left: 200px;
+	font-size: 20px;
+}
+#subtract {
+	font-size: 20px;
+}
+#multiply {
+	font-size: 20px;
+}
+#divide {
+	font-size: 20px;
+}
+#result {
+	margin-top: 20px;
+	margin-left: 200px;
+}
+#numOneMessage {
+	margin-left: 10px;
+	color: white;
+}
+#numTwoMessage {
+	margin-left: 10px;
+	color: white;
+}
+#buttonMessage {
+	margin-left: 10px;
+	color: white;
+}
+#resultMessage {
+	margin-left: 10px;
+	color: white;
+}
+#changeBackground {
+	margin-top: 50px;
+	margin-left: 200px;
+}
+#letter0 {
+	color: red;
+}
+#letter1 {
+	color: orange;
+}
+#letter2 {
+	color: yellow;
+}
+#letter3 {
+	color: green;
+}
+#letter4 {
+	color: blue;
+}
+#letter5 {
+	color: purple;
+}
+#letter6 {
+	color: gray;
+}
+#haveFun {
+	margin-top: 50px;
+	margin-left: 200px;
+}
